@@ -14,7 +14,7 @@
     display: block;
     color: #fff;
     text-align: center;
-   padding: 19px 20px;
+   padding: 20px 20px;
     text-decoration: none;
     font-size: 15px;
 }
@@ -24,6 +24,7 @@
 }
 
 .navbar .icon {
+    color: #fff;
     display: none;
 }
 
@@ -104,7 +105,7 @@
 /*Two Pages That Require a Login to use*/
 
 .cloud-app {
-    margin-top: 140px; /* Adjust this value as needed */
+    margin-top: 120px; /* Adjust this value as needed */
 }
 
 .cloud-app h1 {
@@ -112,9 +113,9 @@
     animation: appearH1 7s forwards;
 }
 
-h5{
+h4 {
     opacity: 0;
-    animation: appearH5 1s forwards;
+    animation: appearH4 1s forwards;
     animation-delay: 2s; /* Delay the animation for 7 seconds */
 }
 
@@ -127,7 +128,7 @@ h5{
     }
 }
 
-@keyframes appearH5 {
+@keyframes appearH4 {
     from {
         opacity: 0;
     }
@@ -143,12 +144,13 @@ h5{
 }
 
 .button {
-    display: block;
+    display: center;
     background-color: hsl(237, 85%, 31%);
     color: rgba(255, 255, 255, 0.585);
     border: 1.6px solid #ffffff7b;
     border-radius: 6.5px;
-    padding: 13px 28px;
+    padding: 16px 28px;
+    margin-right: 10px;
     margin-bottom: 20px; /* Adjust the margin-bottom value to control the spacing */
 }
 
@@ -161,18 +163,18 @@ h5{
     }
 
     .button {
-        margin-right: 170px;
+        margin-right: 40px;
         margin-bottom: 20px; /* Adjust the margin-bottom value to control the spacing */
     }
 }
 
 .container {
-    border: 1.5px solid rgba(255, 255, 255, 0.586);
+    border: 1.5px solid white;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     margin: 40px auto;
-    max-width: 300px;
+    max-width: 330px;
 }
 
 .description {
