@@ -115,9 +115,9 @@
     animation: appearH1 7s forwards;
 }
 
-h4 {
+h5 {
     opacity: 0;
-    animation: appearH4 1s forwards;
+    animation: appearH5 1s forwards;
     animation-delay: 2s; /* Delay the animation for 7 seconds */
 }
 
@@ -130,7 +130,7 @@ h4 {
     }
 }
 
-@keyframes appearH4 {
+@keyframes appearH5 {
     from {
         opacity: 0;
     }
@@ -151,7 +151,7 @@ h4 {
     color: rgba(255, 255, 255, 0.585);
     border: 1.6px solid #ffffff7b;
     border-radius: 6.5px;
-    padding: 16px 28px;
+    padding: 15px 40px;
     margin-right: 10px;
     margin-bottom: 20px; /* Adjust the margin-bottom value to control the spacing */
 }
@@ -165,7 +165,7 @@ h4 {
     }
 
     .button {
-        margin-right: 40px;
+        margin-right: 20px;
         margin-bottom: 20px; /* Adjust the margin-bottom value to control the spacing */
     }
 }
@@ -183,6 +183,16 @@ h4 {
     color: rgba(255, 255, 255, 0.62);
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
