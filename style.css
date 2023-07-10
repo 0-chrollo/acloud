@@ -1,0 +1,185 @@
+/* Nav Bar Menu */
+.navbar {
+    background-color: hsl(237, 85%, 31%);
+    color: #fff;
+    overflow: hidden;
+    width: 100%; /* Set width to 100% */
+    position: fixed; /* Position the navbar fixed */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align it to the left */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+   padding: 19px 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+.navbar-items {
+    float: right;
+}
+
+
+
+/* CSS for responsive design */
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navbar.responsive {
+        position: fixed;
+    }
+
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .navbar-items {
+        float: none;
+        display: block;
+    }
+}
+
+
+
+
+
+
+/*Most Important Pages*/
+/*Two Pages undergoing 4 months of Development*/
+
+.signup-button {
+    
+    background-color: transparent;
+    color: #fff;
+    border: 1.6px solid #ffffff7b;
+  
+    padding: 400px 500px;
+    border-radius: 6.5px;
+    width: 60px;
+}
+
+
+
+
+.Dashboard-button{
+
+    background-color: transparent;
+    color: #fff;
+    font-size: 50px;
+    border: 1.6px solid #ffffff7b;
+    border-radius: 6.5px;
+    width: 73px;
+
+
+}
+
+/*Ends Here*/
+/*Two Pages That Require a Login to use*/
+
+.cloud-app {
+    margin-top: 120px; /* Adjust this value as needed */
+}
+
+.cloud-app h1 {
+    opacity: 0;
+    animation: appearH1 7s forwards;
+}
+
+h4 {
+    opacity: 0;
+    animation: appearH4 1s forwards;
+    animation-delay: 2s; /* Delay the animation for 7 seconds */
+}
+
+@keyframes appearH1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes appearH4 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    display: block;
+    background-color: hsl(237, 85%, 31%);
+    color: rgba(255, 255, 255, 0.585);
+    border: 1.6px solid #ffffff7b;
+    border-radius: 6.5px;
+    padding: 13px 28px;
+    margin-bottom: 20px; /* Adjust the margin-bottom value to control the spacing */
+}
+
+@media screen and (min-width: 768px) {
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* Allow flex items to wrap onto a new line */
+    }
+
+    .button {
+        margin-right: 170px;
+        margin-bottom: 20px; /* Adjust the margin-bottom value to control the spacing */
+    }
+}
+
+.container {
+    border: 1.5px solid rgba(255, 255, 255, 0.779);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 350px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.62);
+    margin-bottom: 20px;
+}
+
+
+
+
