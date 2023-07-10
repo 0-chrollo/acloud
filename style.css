@@ -24,7 +24,7 @@
 }
 
 .navbar .icon {
-    color: #fff;
+    color: #fff  !important;
     display: none;
 }
 
@@ -169,7 +169,7 @@ h4 {
 }
 
 .container {
-    border: 1.5px solid white;
+    border: 1.5px solid rgba(255, 255, 255, 0.496);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
