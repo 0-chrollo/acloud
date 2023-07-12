@@ -62,21 +62,83 @@
 
 
         </div>
-      
+    </main>
+
+
+    <!--Website Details-->
+
         <section class="details" style="background-color: hsl(237, 85%, 31%);">
-            <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-                <img src="cloudd.webp" alt="Cloud Image" style="border-radius: 3%; max-width: 80%; max-height: 80%; filter: brightness(50%);">
+            <div style="display: flex; justify-content: center; align-items: center; height: 100%; position: relative;">
+              <img src="cloudd.webp" alt="Cloud Image" style="border-radius: 3%; max-width: 80%; max-height: 60%; filter: brightness(30%); animation: pulse 4s infinite;">
+              <div style="position: absolute; top: 50%; transform: translateY(-50%); color: rgba(255, 255, 255, 0.466); z-index: 1; margin-bottom: 90px;">
+                <div style="background-color: hsla(237, 85%, 31%, 0.175); border: 1.5px solid rgba(255, 255, 255, 0.465); width: 320px; padding: 10px; border-radius: 10px;">
+                  <p id="feature-1" style="animation: fade-in 3s forwards; animation-delay: 1s; font-size: 17px;"><i class="fas fa-lock" style="margin-right: 20px;"></i> A cloud secured storage</p>
+                  <p id="feature-2" style="animation: fade-in 3s forwards; animation-delay: 2s; font-size: 17px;"><i class="fas fa-users" style="margin-right: 19px;"></i> Share your files and space</p>
+                  <p id="feature-3" style="animation: fade-in 3s forwards; animation-delay: 3s; font-size: 17px;"><i class="fas fa-tachometer-alt" style="margin-right: 20px;"></i> User Friendly Dashboard</p>
+                  <p id="feature-4" style="animation: fade-in 3s forwards; animation-delay: 4s; font-size: 17px;"><i class="fas fa-link" style="margin-right: 20px;"></i> Share file links for downloading</p>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
+          <br>
+          
+          
+          <br>
+          
+          
         
-    
-    <div>
+          <style>
+            @keyframes pulse {
+              0% {
+                transform: scale(1);
+                opacity: 1;
+              }
+              40% {
+                transform: scale(1.2);
+                opacity: 0.0;
+              }
+              90% {
+                transform: scale(1);
+                opacity: 1;
+              }
+            }
+            </style>
+            
+            
+
+<!--Website Footer-->
 
 
-        
+<footer style="background-color:hsla(237, 76%, 42%, 0.394); color: #ffffff86; padding: 18px; border-radius: 10px; margin-top: 50px;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div>
+        <h3 style="margin-bottom: 10px;">Gum Productions</h3>
+        <p style="font-size: 14px;">A cloud service company</p>
+      </div>
+      <div>
+        <h4 style="margin-bottom: 10px;">Cloud-Glide</h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li><a href="#privacy-policy" style="color: #fff; text-decoration: none;">Privacy Policy</a></li>
+          <li><a href="#contact" style="color: #fff; text-decoration: none;">Contact</a></li>
+          <li><a href="#how-to-use" style="color: #fff; text-decoration: none;">How to Use</a></li>
+          <li><a href="#pricing" style="color: #fff; text-decoration: none;">Pricing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="margin-bottom: 10px;">Socials</h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#" style="color: #fff; text-decoration: none;"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
     </div>
-    
-
+    <div style="margin-top: 20px; font-size: 14px; text-align: center;">
+      <p>&copy; 2023 Gum Productions. All rights reserved.</p>
+    </div>
+  </footer>
+  
 
 
 
