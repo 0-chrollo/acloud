@@ -1,6 +1,7 @@
 <p align="center">
-  <img cloudd.webp" alt="KnackPass Logo">
+  <img src="cloudd.webp" alt="KnackPass Logo">
 </p>
+
 
 # KnackPass - Open Source Tool Platform
 
