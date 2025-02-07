@@ -25,7 +25,7 @@
       const postFile = urlParams.get('file');
 
       // Replace with your GitHub repository's raw content URL for the posts folder
-      const repoUrl = 'https://raw.githubusercontent.com/0-chrollo/My_portfolio/main/src/posts';
+      const repoUrl = 'https://raw.githubusercontent.com/0-chrollo/acloud/main/src/posts';
       const response = await fetch(`${repoUrl}/${postFile}`);
       const postContent = await response.text();
 
