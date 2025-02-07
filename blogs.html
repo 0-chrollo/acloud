@@ -19,7 +19,7 @@
   <script>
     async function fetchPosts() {
       // Replace with your GitHub repository's raw content URL for the posts folder
-      const repoUrl = 'https://raw.githubusercontent.com/0-chrollo/My_portfolio/main/src/posts';
+      const repoUrl = 'https://raw.githubusercontent.com/0-chrollo/acloud/main/src/posts';
       const response = await fetch(`${repoUrl}/index.json`);
       const posts = await response.json();
       const postsContainer = document.getElementById('posts');
