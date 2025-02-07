@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post</title>
+  <style>
+    .post {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .post img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="post" class="post"></div>
+
+  <script>
+    async function fetchPost() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const postFile = urlParams.get('file');
+
+      // Replace with your GitHub repository's raw content URL for the posts folder
+      const repoUrl = 'https://raw.githubusercontent.com/0-chrollo/My_portfolio/main/src/posts';
+      const response = await fetch(`${repoUrl}/${postFile}`);
+      const postContent = await response.text();
+
+      // Use a Markdown parser (e.g., marked.js) to render the Markdown content
+      const postContainer = document.getElementById('post');
+      postContainer.innerHTML = marked.parse(postContent); // Include marked.js library
+    }
+
+    fetchPost();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- Include marked.js -->
+</body>
+</html>
